@@ -1,0 +1,43 @@
+
+```json
+{
+  "chain_name": "MedicalVault Secure",
+  "chain_id": 33445,
+  "symbol": "MEDV",
+  "decimals": 18,
+  "programming_language": "C#",
+  
+  "supply": {
+    "genesis_supply": 600000,
+    "max_supply": 3000000,
+    "circulating_supply": 600000
+  },
+  
+  "block_details": {
+    "block_time": 20,
+    "block_reward": 4,
+    "halving_interval": 210000,
+    "halving_count": 0,
+    "current_block_reward": 4
+  },
+  
+  "consensus": {
+    "type": "Proof of Authority",
+    "validators": 21,
+    "minimum_stake": 8000
+  },
+  
+  "network": {
+    "network_type": "testnet",
+    "launch_date": "2026-02-19",
+    "rpc_url": "https://medicalvault.testnet.canopy.network",
+    "explorer_url": "https://explorer.medicalvault.network"
+  },
+  
+  "project_info": {
+    "creator": "Misagh95",
+    "github": "https://github.com/Misagh95",
+    "description": "HIPAA-compliant medical records blockchain",
+    "category": "Healthcare"
+  }
+}
